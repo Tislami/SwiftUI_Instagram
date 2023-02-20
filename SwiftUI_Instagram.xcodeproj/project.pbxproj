@@ -7,16 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD68289629A3E74C00629106 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD68289529A3E74C00629106 /* LoginView.swift */; };
+		AD68289829A3E77D00629106 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD68289729A3E77D00629106 /* AuthenticationViewModel.swift */; };
+		AD68289A29A3E7A700629106 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD68289929A3E7A700629106 /* RegistrationView.swift */; };
+		AD68289C29A3E7CA00629106 /* AppTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD68289B29A3E7CA00629106 /* AppTextField.swift */; };
+		AD68289E29A3E7E200629106 /* AppDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD68289D29A3E7E200629106 /* AppDivider.swift */; };
+		AD6828A029A3E80800629106 /* AuthenticationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD68289F29A3E80800629106 /* AuthenticationButton.swift */; };
+		AD6828A229A3E81A00629106 /* Or.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6828A129A3E81A00629106 /* Or.swift */; };
+		AD6828A429A3E82F00629106 /* AutenticationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6828A329A3E82F00629106 /* AutenticationRepository.swift */; };
+		AD6828A629A3E84E00629106 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6828A529A3E84E00629106 /* User.swift */; };
 		ADC2930D29A37F3E00E2F8D9 /* SwiftUI_InstagramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC2930C29A37F3E00E2F8D9 /* SwiftUI_InstagramApp.swift */; };
-		ADC2930F29A37F3E00E2F8D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC2930E29A37F3E00E2F8D9 /* ContentView.swift */; };
 		ADC2931129A37F3F00E2F8D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC2931029A37F3F00E2F8D9 /* Assets.xcassets */; };
 		ADC2931429A37F3F00E2F8D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC2931329A37F3F00E2F8D9 /* Preview Assets.xcassets */; };
+		ADFEAA2D29A4164A005DCC5C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = ADFEAA2C29A4164A005DCC5C /* FirebaseAuth */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD68289529A3E74C00629106 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AD68289729A3E77D00629106 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		AD68289929A3E7A700629106 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		AD68289B29A3E7CA00629106 /* AppTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextField.swift; sourceTree = "<group>"; };
+		AD68289D29A3E7E200629106 /* AppDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDivider.swift; sourceTree = "<group>"; };
+		AD68289F29A3E80800629106 /* AuthenticationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationButton.swift; sourceTree = "<group>"; };
+		AD6828A129A3E81A00629106 /* Or.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Or.swift; sourceTree = "<group>"; };
+		AD6828A329A3E82F00629106 /* AutenticationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutenticationRepository.swift; sourceTree = "<group>"; };
+		AD6828A529A3E84E00629106 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		ADC2930929A37F3E00E2F8D9 /* SwiftUI_Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC2930C29A37F3E00E2F8D9 /* SwiftUI_InstagramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_InstagramApp.swift; sourceTree = "<group>"; };
-		ADC2930E29A37F3E00E2F8D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ADC2931029A37F3F00E2F8D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADC2931329A37F3F00E2F8D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -26,12 +43,99 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADFEAA2D29A4164A005DCC5C /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD68288A29A3E67B00629106 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD68288F29A3E6B200629106 /* AuthenticationViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD68288B29A3E68100629106 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AD68288C29A3E68800629106 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				AD68288E29A3E69200629106 /* Repository */,
+				AD68288D29A3E68E00629106 /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		AD68288D29A3E68E00629106 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD6828A529A3E84E00629106 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD68288E29A3E69200629106 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				AD6828A329A3E82F00629106 /* AutenticationRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		AD68288F29A3E6B200629106 /* AuthenticationViews */ = {
+			isa = PBXGroup;
+			children = (
+				AD68289329A3E71400629106 /* Registration */,
+				AD68289229A3E70B00629106 /* Login */,
+				AD68289129A3E70500629106 /* Components */,
+				AD68289029A3E6FF00629106 /* Common */,
+				AD68289729A3E77D00629106 /* AuthenticationViewModel.swift */,
+			);
+			path = AuthenticationViews;
+			sourceTree = "<group>";
+		};
+		AD68289029A3E6FF00629106 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AD68289F29A3E80800629106 /* AuthenticationButton.swift */,
+				AD6828A129A3E81A00629106 /* Or.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AD68289129A3E70500629106 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AD68289B29A3E7CA00629106 /* AppTextField.swift */,
+				AD68289D29A3E7E200629106 /* AppDivider.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AD68289229A3E70B00629106 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AD68289529A3E74C00629106 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		AD68289329A3E71400629106 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				AD68289929A3E7A700629106 /* RegistrationView.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
 		ADC2930029A37F3E00E2F8D9 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +155,10 @@
 		ADC2930B29A37F3E00E2F8D9 /* SwiftUI_Instagram */ = {
 			isa = PBXGroup;
 			children = (
+				AD68288B29A3E68100629106 /* Data */,
+				AD68288C29A3E68800629106 /* Domain */,
+				AD68288A29A3E67B00629106 /* Views */,
 				ADC2930C29A37F3E00E2F8D9 /* SwiftUI_InstagramApp.swift */,
-				ADC2930E29A37F3E00E2F8D9 /* ContentView.swift */,
 				ADC2931029A37F3F00E2F8D9 /* Assets.xcassets */,
 				ADC2931229A37F3F00E2F8D9 /* Preview Content */,
 			);
@@ -83,6 +189,9 @@
 			dependencies = (
 			);
 			name = SwiftUI_Instagram;
+			packageProductDependencies = (
+				ADFEAA2C29A4164A005DCC5C /* FirebaseAuth */,
+			);
 			productName = SwiftUI_Instagram;
 			productReference = ADC2930929A37F3E00E2F8D9 /* SwiftUI_Instagram.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +220,9 @@
 				Base,
 			);
 			mainGroup = ADC2930029A37F3E00E2F8D9;
+			packageReferences = (
+				ADFEAA2B29A4164A005DCC5C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = ADC2930A29A37F3E00E2F8D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +249,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADC2930F29A37F3E00E2F8D9 /* ContentView.swift in Sources */,
+				AD68289829A3E77D00629106 /* AuthenticationViewModel.swift in Sources */,
+				AD68289629A3E74C00629106 /* LoginView.swift in Sources */,
+				AD6828A029A3E80800629106 /* AuthenticationButton.swift in Sources */,
 				ADC2930D29A37F3E00E2F8D9 /* SwiftUI_InstagramApp.swift in Sources */,
+				AD6828A229A3E81A00629106 /* Or.swift in Sources */,
+				AD68289A29A3E7A700629106 /* RegistrationView.swift in Sources */,
+				AD68289C29A3E7CA00629106 /* AppTextField.swift in Sources */,
+				AD6828A429A3E82F00629106 /* AutenticationRepository.swift in Sources */,
+				AD6828A629A3E84E00629106 /* User.swift in Sources */,
+				AD68289E29A3E7E200629106 /* AppDivider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +459,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ADFEAA2B29A4164A005DCC5C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ADFEAA2C29A4164A005DCC5C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADFEAA2B29A4164A005DCC5C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ADC2930129A37F3E00E2F8D9 /* Project object */;
 }
